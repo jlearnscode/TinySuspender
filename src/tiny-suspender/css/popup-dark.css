@@ -1,42 +1,44 @@
+/*Swapped dark and light modes, only what existed in dark mode*/
 body.dark-mode {
-  background-color: #333;
+  /*background-color: #333; original body didn't have background color*/
 }
 
 .dark-mode .buttons a {
-  color: #eee;
+  color: #757575;
 }
 
 .dark-mode .buttons a:hover {
-  background-color: #555
+  background-color: #e0e0e0
 }
 
 .dark-mode #status_text {
-  background: #555;
-  color: #eee;
+  background: #607d8b;
+  color: #fff;
 }
 
 .dark-mode #status_text.blue {
-  background: #0078d8;
+  background: #2196F3;
 }
 
 .dark-mode #status_text.yellow {
-  background: #b16900;
+  background: #ff9800;
 }
 
 .dark-mode #status_text.red {
-  background: #a70b00;
+  background: #f44336;
 }
 
 .dark-mode #status_container {
+  margin-bottom: 10px;
 }
 
 .dark-mode form label {
-  color: #ccc;
+  color: #757575;
 }
 
 .dark-mode form input[type=number] {
   border-bottom: 1px solid #2196F3;
-  color: #ccc;
+  color: #757575;
 }
 
 .dark-mode form input[type=number]:focus {
@@ -44,12 +46,11 @@ body.dark-mode {
 }
 
 .dark-mode form small {
-  color: #ccc;
+  color: #757575;
 }
 
-
 .dark-mode .section .bottom-status {
-  color: #ccc;
+  color: #757575;
 }
 
 .dark-mode .section .bottom-status.red {
